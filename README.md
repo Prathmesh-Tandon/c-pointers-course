@@ -10,6 +10,9 @@ The code provided as part of this repository is ONLY for learning purposes!
 1. Use `gcc main.c` to compile the code.
 1. Execute `./a.out` to run the program
 
+# Project2: use of * and &
+1. create projct2.c
+
 # Copyright
 
 Copyright © 2025 [pyjamabrah.com](https://pyjamabrah.com). All Rights Reserved.
