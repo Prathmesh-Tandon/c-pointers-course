@@ -20,8 +20,11 @@ The code provided as part of this repository is ONLY for learning purposes!
 # Project4 dereferencing
 1. create project4.c
 
-# Project5 : pointerto pointer
+# Project5 : pointer to pointer
 1. create project5.c
+
+# Project6 : arrays of pointer
+1. create project6.c
 
 
 # Copyright
