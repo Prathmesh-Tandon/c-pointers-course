@@ -17,6 +17,13 @@ The code provided as part of this repository is ONLY for learning purposes!
 # Project3: ptrs vs array
 1. create project3.c
 
+# Project4 dereferencing
+1. create project4.c
+
+# Project5 : pointerto pointer
+1. create project5.c
+
+
 # Copyright
 
 Copyright © 2025 [pyjamabrah.com](https://pyjamabrah.com). All Rights Reserved.
