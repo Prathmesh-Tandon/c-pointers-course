@@ -13,7 +13,8 @@ void main(){
     printf("(garbage) c_ptr = %p\n", c_ptr);
     printf("(garbage) c_ptr = 0x%llx \n\n", (long long unsigned int) c_ptr);
 
-    // 1. use of & as loging and operator
+    // 1. use of & as logical AND operator
+    printf("\n");
     x= i &c;
     printf("i&c -> %d\n", x);
 
@@ -24,6 +25,27 @@ void main(){
     //x=i& (&c);
     //printf("i& &c -> %d\n", x);
 
-    // 3. 
+    //if logical AND use with char ptr variable after type casting then it compiles i.e anding operation works.
+    printf("\n");
+    int g = 0xff;
+    x= g & (int)(&c); //pass but with warning
+    //printf("g &(int)(&c) -> %x\n", x);
+
+    // 3. assign ptr a valid address
+    printf("\n");
+    c_ptr=&c;
+    printf("c_ptr = %p , &c = %p\n", c_ptr, &c);
+
+    // 4. use of * with ptr variable
+    printf("\n");
+    i=2;
+    //x=i*c_ptr; // invalid
+    //printf("x=i*c_ptr => %d\n\n", x);
+    x=i**c_ptr; // first * is multiply , second is derefrencing.
+    printf("x=i**c_ptr => %d\n\n", x);
+
+    // 5. extend 4 with parenthesis for defrence , read POV
+    x= i* (*c_ptr);
+    printf("i*(*c_ptr) => %d\n\n",x);
 
 }
