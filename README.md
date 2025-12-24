@@ -12,6 +12,10 @@ The code provided as part of this repository is ONLY for learning purposes!
 
 # Project2: use of * and &
 1. create projct2.c
+2. use of * and &.
+
+# Project3: ptrs vs array
+1. create project3.c
 
 # Copyright
 
