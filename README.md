@@ -26,7 +26,6 @@ The code provided as part of this repository is ONLY for learning purposes!
 # Project6 : arrays of pointer
 1. create project6.c
 
-
-# Copyright
-
-Copyright © 2025 [pyjamabrah.com](https://pyjamabrah.com). All Rights Reserved.
+# Project7 : pointing to data type
+1. create project7.c -> pointer takes the size of its associated data type while dereferencing.
+2. pointing to struct, how deferencing works, arrow pointer usage = (*ptr).element.
