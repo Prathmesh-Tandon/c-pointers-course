@@ -34,3 +34,8 @@ The code provided as part of this repository is ONLY for learning purposes!
 # Project8 : Function pointer
 1. create project8.c -> syntax, how to define, dereference, typedef usage.
 2. update main.c: function pointer array, use of header and library.c so gcc main.c math_library.c
+
+# Project9: void pointer
+1. create project9.c
+# Project10: heap allocation
+1. create project10.c

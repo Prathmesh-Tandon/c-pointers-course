@@ -1,5 +1,3 @@
-
-
 // math_library.c
 #include "math_library.h"
 #include <stdio.h>
